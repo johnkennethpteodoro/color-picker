@@ -1,8 +1,7 @@
-import { FaCopy } from "react-icons/fa";
 function PreviewColor({ selectedColor }) {
 	return (
 		<div
-			className=" xl:h-screen h-[300px]"
+			className=" xl:h-screen h-[300px] border rounded-lg"
 			style={{
 				backgroundColor: selectedColor ? `#${selectedColor.hex_code}` : "#FAFAFA",
 			}}

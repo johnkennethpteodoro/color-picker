@@ -11,7 +11,7 @@ function ColorPicker({ colors, onColorSelect }) {
 								<button
 									style={{ backgroundColor: `#${color.hex_code}` }}
 									onClick={() => onColorSelect(color)}
-									className="w-full h-24 py-6 text-xs font-semibold uppercase hover:opacity-90"
+									className="w-full h-24 py-6 text-xs font-semibold uppercase border rounded-lg hover:opacity-90"
 								>
 									<span className="colorInvert ">{color.color_code}</span>
 									<h6 className="colorInvert">{color.name}</h6>
